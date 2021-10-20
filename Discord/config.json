@@ -1,0 +1,24 @@
+{
+    "bot":{
+        "id":"",
+        "token":"",
+        "clientSecret":"",
+        "public-key":""
+    },
+
+    "owner":{
+        "name":"",
+        "id":"",
+        "tag":"",
+        "namePlusTag":""
+    },
+
+    "dashboard":{
+        "password":"",
+        "redirect":"",
+        "id":"",
+        "local":"",
+        "website":"",
+        "user":""
+    }
+}
