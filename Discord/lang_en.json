@@ -1,4 +1,16 @@
-{"messages":{
+{
+    "messages":{
+
+    "permissions":{
+        "OWNER":"❌ | You can't execute this command because you are not the owner of this server !",
+        "ADMINISTRATOR":"❌ | You can't execute this command because you don't have the good permission (ADMINISTRATOR)",
+        "SEND_MESSAGES":"❌ | You can't execute this command because you don't have the good permission (SEND_MESSAGES)",
+        "VIEW_CHANNEL":"❌ | You can't execute this command because you don't have the good permission (VIEW_CHANNEL)",
+        "MANAGE_MESSAGES":"❌ | You can't execute this command because you don't have the good permission (MANAGE_MESSAGES)",
+        "MANAGE_CHANNELS":"❌ | You can't execute this command because you don't have the good permission (MANAGE_CHANNELS)"
+    },
+
+    "commands":{
     "moderation":{
         "ban":{
             
@@ -28,6 +40,8 @@
     "config":{
 
     }
+    
+    }
 
-}
+    }
 }
