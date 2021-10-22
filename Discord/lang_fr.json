@@ -1,8 +1,82 @@
 {
     "messages":{
+
+    "NoPermission":{
+        "OWNER":"❌ | You can't execute this command because you are not the owner of this server !",
+        "ADMINISTRATOR":"❌ | You can't execute this command because you don't have the good permission (ADMINISTRATOR)",
+        "SEND_MESSAGES":"❌ | You can't execute this command because you don't have the good permission (SEND_MESSAGES)",
+        "VIEW_CHANNEL":"❌ | You can't execute this command because you don't have the good permission (VIEW_CHANNEL)",
+        "MANAGE_MESSAGES":"❌ | You can't execute this command because you don't have the good permission (MANAGE_MESSAGES)",
+        "MANAGE_CHANNELS":"❌ | You can't execute this command because you don't have the good permission (MANAGE_CHANNELS)",
+        "BAN_MEMBERS":"❌ | You can't execute this command because you don't have the good permission (BAN_MEMBERS)",
+        "KICK_MEMBERS":"❌ | You can't execute this command because you don't have the good permission (KICK_MEMBERS)",
+        "ATTACH_FILES":"❌ | You can't execute this command because you don't have the good permission (ATTACH_FILES)",
+        "CREATE_INSTANT_INVITE":"❌ | You can't execute this command because you don't have the good permission (CREATE_INSTANT_INVITE)",
+        "MANAGE_GUILD":"❌ | You can't execute this command because you don't have the good permission (MANAGE_GUILD)",
+        "ADD_REACTIONS":"❌ | You can't execute this command because you don't have the good permission (ADD_REACTIONS)",
+        "VIEW_AUDIT_LOG":"❌ | You can't execute this command because you don't have the good permission (VIEW_AUDIT_LOG)",
+        "PRIORITY_SPEAKER":"❌ | You can't execute this command because you don't have the good permission (PRIORITY_SPEAKER)",
+        "SEND_TTS_MESSAGES":"❌ | You can't execute this command because you don't have the good permission (SEND_TTS_MESSAGES)",
+        "MANAGE_ROLES":"❌ | You can't execute this command because you don't have the good permission (MANAGE_ROLES)",
+        "MANAGE_WEBHOOKS":"❌ | You can't execute this command because you don't have the good permission (MANAGE_WEBHOOKS)",
+        "USE_APPLICATION_COMMANDS":"❌ | You can't execute this command because you don't have the good permission (USE_APPLICATION_COMMANDS)",
+        "REQUEST_TO_SPEAK":"❌ | You can't execute this command because you don't have the good permission (REQUEST_TO_SPEAK)",
+        "MANAGE_THREADS":"❌ | You can't execute this command because you don't have the good permission (MANAGE_THREADS)",
+        "CREATE_PUBLIC_THREADS":"❌ | You can't execute this command because you don't have the good permission (CREATE_PUBLIC_THREADS)",
+        "CREATE_PRIVATE_THREADS":"❌ | You can't execute this command because you don't have the good permission (CREATE_PRIVATE_THREADS)",
+        "USE_EXTERNAL_STICKERS":"❌ | You can't execute this command because you don't have the good permission (USE_EXTERNAL_STICKERS)",
+        "SEND_MESSAGES_IN_THREADS":"❌ | You can't execute this command because you don't have the good permission (SEND_MESSAGES_IN_THREADS)",
+        "START_EMBEDDED_ACTIVITIES":"❌ | You can't execute this command because you don't have the good permission (START_EMBEDDED_ACTIVITIES)",
+        "MANAGE_EMOJIS_AND_STICKERS":"❌ | You can't execute this command because you don't have the good permission (MANAGE_EMOJIS_AND_STICKERS)",
+        "USE_VAD":"❌ | You can't execute this command because you don't have the good permission (USE_VAD)",
+        "MANAGE_NICKNAMES":"❌ | You can't execute this command because you don't have the good permission (MANAGE_NICKNAMES)",
+        "CHANGE_NICKNAME":"❌ | You can't execute this command because you don't have the good permission (CHANGE_NICKNAME)",
+        "READ_MESSAGE_HISTORY":"❌ | You can't execute this command because you don't have the good permission (READ_MESSAGE_HISTORY)",
+        "MENTION_EVERYONE":"❌ | You can't execute this command because you don't have the good permission (MENTION_EVERYONE)",
+        "USE_EXTERNAL_EMOJIS":"❌ | You can't execute this command because you don't have the good permission (USE_EXTERNAL_EMOJIS)",
+        "CONNECT":"❌ | You can't execute this command because you don't have the good permission (CONNECT)",
+        "VIEW_GUILD_INSIGHTS":"❌ | You can't execute this command because you don't have the good permission (VIEW_GUILD_INSIGHTS)",
+        "SPEAK":"❌ | You can't execute this command because you don't have the good permission (SPEAK)",
+        "MUTE_MEMBERS":"❌ | You can't execute this command because you don't have the good permission (MUTE_MEMBERS)",
+        "DEAFEN_MEMBERS":"❌ | You can't execute this command because you don't have the good permission (DEAFEN_MEMBERS)",
+        "MOVE_MEMBERS":"❌ | You can't execute this command because you don't have the good permission (MOVE_MEMBERS)"
+    },
+
+"use":{
+    "":"For the %player% or server or other use .replace('%player%', yourPlayerConfig) :)"
+},
+
+    "commands":{
     "moderation":{
         "ban":{
-            
+            "userBanned":"⚒️ | The user %player% was banned from the server!"
+        },
+        "kick":{
+            "userKicked":"🚪 | The user %player% was banned from the server!"
+        },
+        "warn":{
+
+        },
+        "unwarn":{
+
+        },
+        "clear":{
+
+        },
+        "mute":{
+
+        },
+        "unmute":{
+
+        },
+        "unban":{
+        
+        },
+        "setnick":{
+
+        },
+        "warns":{
+
         }
     },
 
@@ -11,23 +85,56 @@
     },
 
     "informations":{
+        "userinfo":{
 
+        },
+        "serverinfo":{
+
+        },
+        "botinfo":{
+
+        }  
     },
 
     "fun":{
-
+        "/": "Add your commands here"
     },
 
     "media":{
-
+        "/": "Add your commands here"
     },
 
     "music":{
+        "play":{
 
+        },
+        "stop":{
+
+        },
+        "pause":{
+
+        },
+        "np":{
+
+        },
+        "skip":{
+
+        },
+        "resume":{
+
+        },
+        "bassboost":{
+
+        },
+        "volume":{
+            
+        }
     },
 
     "config":{
 
+    }
+    
     }
 
     }

@@ -3,6 +3,7 @@
         "id":"",
         "token":"",
         "clientSecret":"",
+        "website":"https://www.yourwebsite.ext",
         "public-key":""
     },
 

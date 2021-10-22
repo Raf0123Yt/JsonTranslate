@@ -42,10 +42,41 @@
         "MOVE_MEMBERS":"❌ | You can't execute this command because you don't have the good permission (MOVE_MEMBERS)"
     },
 
+"use":{
+    "":"For the %player% or server or other use .replace('%player%', yourPlayerConfig) :)"
+},
+
     "commands":{
     "moderation":{
         "ban":{
-            
+            "userBanned":"⚒️ | The user %player% was banned from the server!"
+        },
+        "kick":{
+            "userKicked":"🚪 | The user %player% was banned from the server!"
+        },
+        "warn":{
+
+        },
+        "unwarn":{
+
+        },
+        "clear":{
+
+        },
+        "mute":{
+
+        },
+        "unmute":{
+
+        },
+        "unban":{
+        
+        },
+        "setnick":{
+
+        },
+        "warns":{
+
         }
     },
 
@@ -54,19 +85,50 @@
     },
 
     "informations":{
+        "userinfo":{
 
+        },
+        "serverinfo":{
+
+        },
+        "botinfo":{
+
+        }  
     },
 
     "fun":{
-
+        "/": "Add your commands here"
     },
 
     "media":{
-
+        "/": "Add your commands here"
     },
 
     "music":{
+        "play":{
 
+        },
+        "stop":{
+
+        },
+        "pause":{
+
+        },
+        "np":{
+
+        },
+        "skip":{
+
+        },
+        "resume":{
+
+        },
+        "bassboost":{
+
+        },
+        "volume":{
+            
+        }
     },
 
     "config":{
