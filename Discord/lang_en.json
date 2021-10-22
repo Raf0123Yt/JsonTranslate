@@ -81,7 +81,11 @@
     },
 
     "util":{
+        "help":{
 
+        },
+
+        "/":"Add your commands here"
     },
 
     "informations":{
@@ -127,12 +131,12 @@
 
         },
         "volume":{
-            
+
         }
     },
 
     "config":{
-
+        "/":"Add your commands here"
     }
     
     }
