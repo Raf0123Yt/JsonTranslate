@@ -24,10 +24,10 @@
 
 # A color code between 0-9 or a-f. Set to 'none' to disable.
 # In 1.16+ you can use hex color codes here as well. (For example, #613e1d is brown).
-ops-name-color: '4'
+ops-name-color: 'none'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
-nickname-prefix: '~'
+nickname-prefix: ''
 
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
 max-nick-length: 15
@@ -91,10 +91,10 @@ force-safe-teleport-location: false
 teleport-passenger-dismount: true
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 0
+teleport-cooldown: 2
 
 # The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
-teleport-delay: 0
+teleport-delay: 3
 
 # The delay, in seconds, a player can't be attacked by other players after they have been teleported by a command.
 # This will also prevent the player attacking other players.
@@ -104,10 +104,10 @@ teleport-invulnerability: 4
 teleport-to-center: true
 
 # The delay, in seconds, required between /heal or /feed attempts.
-heal-cooldown: 60
+heal-cooldown: 30
 
 # Do you want to remove potion effects when healing a player?
-remove-effects-on-heal: true
+remove-effects-on-heal: false
 
 # Near Radius
 # The default radius with /near
@@ -183,25 +183,25 @@ verbose-command-usages: true
 # Set - '*' in order to listen on all possible commands.
 socialspy-commands:
   - msg
-  - w
+  #- w
   - r
-  - mail
-  - m
-  - t
-  - whisper
-  - emsg
+  #- mail
+  #- m
+  #- t
+  #- whisper
+  #- emsg
   - tell
-  - er
+  #- er
   - reply
-  - ereply
-  - email
-  - action
-  - describe
-  - eme
-  - eaction
-  - edescribe
-  - etell
-  - ewhisper
+  #- ereply
+  #- email
+  #- action
+  #- describe
+  #- eme
+  #- eaction
+  #- edescribe
+  #- etell
+  #- ewhisper
   - pm
 
 # Whether the private and public messages from muted players should appear in the social spy.
